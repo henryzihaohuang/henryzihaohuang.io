@@ -2560,6 +2560,12 @@ input, select, textarea {
 				}
 
 /* Image */
+.contact-icons{
+	display:flex;
+	justify-content: space-between;
+	width:8vw;
+	height:8vh;
+}
 
 	.image {
 		border-radius: 0.25em;
