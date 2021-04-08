@@ -1914,8 +1914,8 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #0035db;
-			color: #0035db !important;
+			background-color: #312450;
+			color: white !important;
 		}
 
 			input[type="submit"].primary:after,
@@ -2360,7 +2360,7 @@ input, select, textarea {
 		}
 
 		select:focus::-ms-value {
-			background-color: transparent;
+			background-color: #3124509c;
 		}
 
 		select::-ms-expand {
@@ -3247,7 +3247,7 @@ input, select, textarea {
 			}
 
 		.wrapper.alt {
-			background-color: #fefeff;
+			background-color: white;
 		}
 
 		.wrapper.style1 {
