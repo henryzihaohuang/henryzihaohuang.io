@@ -3880,7 +3880,74 @@ input, select, textarea {
 			}
 
 		}
+.icon {
+		text-decoration: none;
+		border-bottom: none;
+		position: relative;
+	}
 
+		.icon:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+
+		.icon > .label {
+			display: none;
+		}
+
+		.icon:before {
+			line-height: inherit;
+		}
+
+		.icon.solid:before {
+			font-weight: 900;
+		}
+
+		.icon.brands:before {
+			font-family: 'Font Awesome 5 Brands';
+		}
+
+		.icon.major {
+			-moz-transform: rotate(-45deg);
+			-webkit-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+			border-radius: 3px;
+			border: solid 2px #fff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 1.35em;
+			height: calc(5em + 5px);
+			line-height: 3em;
+			text-align: center;
+			width: calc(5em + 5px);
+		}
+
+			.icon.major:before {
+				-moz-transform: rotate(45deg);
+				-webkit-transform: rotate(45deg);
+				-ms-transform: rotate(45deg);
+				transform: rotate(45deg);
+				display: inline-block;
+				font-size: 1.5em;
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.icon.major {
+					font-size: 1em;
+				}
+
+			}
 /* Intro */
 
 	#intro {
@@ -3919,4 +3986,7 @@ input, select, textarea {
 
 		}
 
+		.colored{
+			font-size:70px;
+		}
 		
