@@ -2564,7 +2564,7 @@ input, select, textarea {
 	display:flex;
 	justify-content: space-between;
 	width:8vw;
-	height:8vh;
+	height:5vh;
 }
 
 	.image {
